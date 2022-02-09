@@ -1,0 +1,19 @@
+{
+  "name": "am-app",
+  "version": "1.0.0",
+  "description": "App to help doctors manage their patients",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "DarioPeroza",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
