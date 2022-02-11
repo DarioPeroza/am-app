@@ -14,7 +14,7 @@ app.use(morgan('dev'))
 app.use(express.json())
 
 // Routes
-app.use(require('./routes/app'))
+app.use(require('./routes/root'))
 app.use(require('./routes/login'))
 
 // Static files
